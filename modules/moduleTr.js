@@ -1,3 +1,8 @@
-const circle = require('./moduleEx'); 
+import { circleCircumference } from './modules/moduleEx'; 
 
-circle.circleCircumference(5);
+try {
+    circleCircumference(5);
+} catch (error) {
+    console.log(error)
+}
+

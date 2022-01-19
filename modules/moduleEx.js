@@ -3,4 +3,4 @@ function circleCircumference (r) {
     console.log("Circle Circumference : ", 3*2*r)
 }
 
-module.exports = circleCircumference 
+export default circleCircumference 
